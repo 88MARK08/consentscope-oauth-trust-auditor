@@ -1,0 +1,59 @@
+{
+  "scopes": {
+    "openid": {
+      "severity": "INFO",
+      "technical": "Requests OpenID Connect identity information.",
+      "plain_language": "confirm your identity"
+    },
+    "profile": {
+      "severity": "LOW",
+      "technical": "Requests access to basic profile claims.",
+      "plain_language": "read basic profile information"
+    },
+    "email": {
+      "severity": "LOW",
+      "technical": "Requests access to the user's email address.",
+      "plain_language": "read your email address"
+    },
+    "offline_access": {
+      "severity": "MEDIUM",
+      "technical": "Requests refresh-token style access that may persist after the session.",
+      "plain_language": "keep access after you leave the application"
+    },
+    "drive": {
+      "severity": "MEDIUM",
+      "technical": "Represents broad cloud-drive access in this demo catalog.",
+      "plain_language": "access files in your cloud drive"
+    },
+    "files.readwrite": {
+      "severity": "HIGH",
+      "technical": "Allows reading and modifying files.",
+      "plain_language": "read and change your files"
+    },
+    "mail.read": {
+      "severity": "HIGH",
+      "technical": "Allows reading user mail.",
+      "plain_language": "read your email messages"
+    },
+    "mail.send": {
+      "severity": "HIGH",
+      "technical": "Allows sending mail as the user.",
+      "plain_language": "send email from your account"
+    },
+    "calendar.read": {
+      "severity": "MEDIUM",
+      "technical": "Allows reading calendar data.",
+      "plain_language": "read your calendar"
+    },
+    "calendar.readwrite": {
+      "severity": "HIGH",
+      "technical": "Allows reading and modifying calendar data.",
+      "plain_language": "read and change your calendar"
+    },
+    "user.read": {
+      "severity": "LOW",
+      "technical": "Allows reading basic user account information.",
+      "plain_language": "read basic account information"
+    }
+  }
+}

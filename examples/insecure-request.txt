@@ -1,0 +1,1 @@
+https://login.example.com/oauth2/authorize?response_type=code&client_id=demo-insecure-client&redirect_uri=http%3A%2F%2Fevil.example.com%2Fcallback&scope=openid%20unknown.admin.scope&state=&code_challenge=weakchallenge&code_challenge_method=plain
