@@ -28,9 +28,8 @@ ConsentScope does not validate whether an OAuth client is legitimate, does not c
 14. [Known Issues and Limitations](#known-issues-and-limitations)
 15. [Future Work](#future-work)
 16. [Resources](#resources)
-17. [Responsible Use](#responsible-use)
-18. [Declaration of Generative AI Usage](#declaration-of-generative-ai-usage)
-19. [Author](#author)
+17. [Declaration of Generative AI Usage](#declaration-of-generative-ai-usage)
+18. [Author](#author)
 
 ---
 
@@ -59,7 +58,6 @@ ConsentScope helps answer questions such as:
 - Are there unknown scopes that the local catalog cannot explain?
 - Can the requested permissions be summarized in plain language?
 
-The resulting report is not a final risk verdict. It is a review aid that helps identify areas needing closer inspection.
 
 ---
 
@@ -92,7 +90,7 @@ It provides a reproducible environment for:
 - Producing terminal and JSON reports
 - Testing safer and riskier authorization examples
 
-ConsentScope complements larger identity and application-security tools by providing a focused review workflow for OAuth consent and trust analysis.
+ConsentScope supports identity and application-security review by making OAuth consent risks easier to inspect, explain, and reproduce from a saved authorization request URL.
 
 ---
 
@@ -332,7 +330,7 @@ The broad-access request was also run manually and produced a risk score of:
 
 ConsentScope is a prototype and has several limitations:
 
-- The local scope catalog is intentionally small.
+- The local scope catalog is small.
 - Provider-specific scope semantics may differ.
 - The tool does not contact live Google, Microsoft, GitHub, Okta, or other identity-provider metadata endpoints.
 - The tool does not verify whether a `client_id` is legitimate.
